@@ -35,7 +35,9 @@ function BlogPost({ blogPost }) {
       const { className, children } = code;
       const language = className.split("-")[1];
       return (
-        <PrismLight language={language} children={children} style={atomDark} />
+        <PrismLight language={language} style={atomDark}>
+          {children}
+        </PrismLight>
       );
     },
   };

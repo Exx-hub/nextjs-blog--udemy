@@ -1,0 +1,26 @@
+.container {
+  height: 9vh;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 0 10%;
+  font-family: "Open Sans", sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.list li {
+  margin-right: 30px;
+  cursor: pointer;
+}

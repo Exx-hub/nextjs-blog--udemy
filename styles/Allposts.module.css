@@ -1,0 +1,16 @@
+.allposts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.allposts h1 {
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #42425a, #686879);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: none;
+  text-transform: uppercase;
+  font-size: 40px;
+}

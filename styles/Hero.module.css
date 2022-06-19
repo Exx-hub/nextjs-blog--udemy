@@ -1,0 +1,29 @@
+.hero {
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(84, 83, 83, 0.61),
+    #111
+  );
+  background-color: #2d2d2d;
+  text-align: center;
+  padding: 25px;
+  padding-bottom: 45px;
+}
+
+.imageDiv {
+  overflow: hidden;
+  font-size: 0;
+  margin: 40px auto 20px auto;
+}
+
+.imageDiv img {
+  border-radius: 1000px;
+}
+
+.hero h1,
+.hero h3 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+.notif {
+  position: fixed;
+  bottom: 0;
+
+  height: 100px;
+  width: 100%;
+
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  color: whitesmoke;
+  font-weight: bold;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+.pending {
+  background-color: #177cbe;
+}
+
+.success {
+  background-color: #1ca555;
+}
+
+.error {
+  background-color: #e65035;
+}

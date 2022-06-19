@@ -1,0 +1,39 @@
+.blogPost {
+  width: 55%;
+
+  margin: 30px auto;
+  border-radius: 10px;
+
+  background-color: #b3b1b3;
+  padding: 30px;
+}
+
+.blogPost h1,
+.blogPost h2 {
+  margin: 20px 0;
+}
+
+.blogPost li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.blogPost ul {
+  padding: 15px;
+}
+
+.blogPost a {
+  color: blue;
+}
+
+.blogPost > p > span {
+  margin-bottom: 15px !important;
+}
+
+.blogPost > p:nth-last-child(2) {
+  text-align: center;
+}
+
+.blogPost pre {
+  margin-top: 20px;
+}
